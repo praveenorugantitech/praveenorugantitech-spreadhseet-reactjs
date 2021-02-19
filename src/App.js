@@ -11,7 +11,8 @@ export default class App extends Component {
       FirstName: '',
       LastName: '',
       Email: '',
-      Website: ''
+      Website: '',
+      responseMsg: ''
     }
   }
 
@@ -21,7 +22,13 @@ export default class App extends Component {
 
   submitHandler = e => {
     e.preventDefault();
-    axios.post('https://sheet.best/api/sheets/bfe1d9b8-0856-4057-9527-116533b75c2d', this.state);
+    axios.post('https://sheet.best/api/sheets/bfe1d9b8-0856-4057-9527-116533b75c2d', this.state).then(() => {
+      this.setState({responseMsg:"You have updated the Google SpreadSheet successfully!!"});
+    })
+    .catch((error) => {
+      this.setState({responseMsg:"lease try again!!"});
+      
+    });
 
   }
 
@@ -50,6 +57,7 @@ export default class App extends Component {
 
           <Button color="blue" type='submit'>Submit</Button>
         </Form>
+        <h4>{this.state.responseMsg}</h4>
       </Container>
     )
   }
