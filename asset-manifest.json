@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/praveenorugantitech-spreadhseet-reactjs/static/css/main.19612053.chunk.css",
-    "main.js": "/praveenorugantitech-spreadhseet-reactjs/static/js/main.03649e78.chunk.js",
+    "main.js": "/praveenorugantitech-spreadhseet-reactjs/static/js/main.aa866088.chunk.js",
     "runtime-main.js": "/praveenorugantitech-spreadhseet-reactjs/static/js/runtime-main.a71aff6e.js",
     "static/css/2.576c9129.chunk.css": "/praveenorugantitech-spreadhseet-reactjs/static/css/2.576c9129.chunk.css",
-    "static/js/2.e6e73cbf.chunk.js": "/praveenorugantitech-spreadhseet-reactjs/static/js/2.e6e73cbf.chunk.js",
+    "static/js/2.21ffaa11.chunk.js": "/praveenorugantitech-spreadhseet-reactjs/static/js/2.21ffaa11.chunk.js",
     "index.html": "/praveenorugantitech-spreadhseet-reactjs/index.html",
-    "static/js/2.e6e73cbf.chunk.js.LICENSE.txt": "/praveenorugantitech-spreadhseet-reactjs/static/js/2.e6e73cbf.chunk.js.LICENSE.txt",
+    "static/js/2.21ffaa11.chunk.js.LICENSE.txt": "/praveenorugantitech-spreadhseet-reactjs/static/js/2.21ffaa11.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/praveenorugantitech-spreadhseet-reactjs/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.a71aff6e.js",
     "static/css/2.576c9129.chunk.css",
-    "static/js/2.e6e73cbf.chunk.js",
+    "static/js/2.21ffaa11.chunk.js",
     "static/css/main.19612053.chunk.css",
-    "static/js/main.03649e78.chunk.js"
+    "static/js/main.aa866088.chunk.js"
   ]
 }
